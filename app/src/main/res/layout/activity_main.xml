@@ -33,7 +33,7 @@
                 android:id="@+id/replace_f1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="rReplace with Fragment 1" />
+                android:text="Replace with Fragment 1" />
         </LinearLayout>
 
         <LinearLayout
