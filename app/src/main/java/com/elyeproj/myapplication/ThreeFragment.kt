@@ -29,7 +29,7 @@ class ThreeFragment : Fragment() {
     override fun onResume() {
         super.onResume()
 
-        // Comment it out to get this working
+        // Uncomment it out to get this working
         // (activity as AppCompatActivity).setSupportActionBar(toolbar_actionbar)
     }
 
