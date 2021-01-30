@@ -21,16 +21,11 @@ class FourFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         toolbar_actionbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp)
         setHasOptionsMenu(true)
-
-        // Comment it out to get this working
-        (activity as AppCompatActivity).setSupportActionBar(toolbar_actionbar)
     }
 
     override fun onResume() {
         super.onResume()
-
-        // Uncomment it out to get this working
-        // (activity as AppCompatActivity).setSupportActionBar(toolbar_actionbar)
+         (activity as AppCompatActivity).setSupportActionBar(toolbar_actionbar)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
